@@ -1,20 +1,24 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    list-style: none;
-    
-}
 
-
-.background{
-    background-image: url(image/img.casal.jpg);
+  .background{
+    background-image: url(img/img.casal.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
-    width: 100%;
-    max-width: 100%;
-    height: 100vh;
+    width: 1440px;
+    height: 1050px;
+    top: 200px
 }
+
+.minha-imagem {
+    width: 295px;
+    height: 298px; 
+    top: 1104px;
+    left: 100px;
+  }
+
+.cards-2 {
+    width: 295px;
+    height: 298px; 
+    top: 1104px;
+    left: 415px;
+  }
