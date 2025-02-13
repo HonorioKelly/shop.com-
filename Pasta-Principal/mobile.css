@@ -1,0 +1,253 @@
+ 
+.homepage {
+    display: flex; 
+    /* Layout flexível */
+    /*flex-direction: column; /* Elementos empilhados verticalmente */
+    /*align-items: center; /* Centraliza no eixo horizontal */
+    /*justify-content: center; /* Centraliza no eixo vertical */
+    /*height: 100vh; /* Preenche a altura da tela */
+    /*background-color: #f5f5f5; /* Fundo claro */
+    /*font-family: Arial, sans-serif; /* Fonte padrão */
+   /* padding: 10px; /* Espaçamento interno para telas pequenas */
+  }
+  
+  /* Contêiner vazio */
+  .homepage-child {
+    position: absolute;
+    display: block;
+    align-items: center;
+    left: calc(50% - 195px);
+    /*width: 110%; /* Largura total no mobile */
+    /*max-width: 102%; /* Limite de largura no desktop */
+    height: 100%; /* Altura fixa */
+    background-color: #dbd4d4; /* Fundo cinza claro */
+    margin-bottom: 20px; /* Espaço inferior */
+    
+  }
+  
+  /* Contêiner da seção promocional */
+  .banner-promo {
+    position: relative; /* Fixa no topo da página */
+    top: 0; /* Alinha ao topo */
+    left: -1; /* Alinha à esquerda */
+    width: 100%; /* Faz o banner ocupar toda a largura */
+    background-color: #000; /* Cor de fundo preto */
+    color: #fff; /* Texto branco */
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Espaça os elementos */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 10px 20px; /* Espaçamento interno */
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+    order: 1; 
+  }
+  
+  /* Estilizando o texto */
+  .banner-texto span {
+    font-size: 14px; /* Tamanho padrão */
+    color: #f7eded; /* Cor do texto */
+    margin-bottom: 9px; /* Espaço inferior entre os textos */
+  }
+  
+  .sign-up-now {
+    color: #007bff; /* Cor azul para destaque */
+    font-weight: bold; /* Texto em negrito */
+    cursor: pointer; /* Cursor de link */
+    text-decoration: underline; /* Sublinha o texto */
+  }
+  
+  /* Efeito ao passar o mouse no botão */
+  .sign-up-now:hover {
+    color: #0056b3; /* Azul mais escuro */
+    text-decoration: none; /* Remove o sublinhado */
+  }
+
+  /*Começo dos icones*/
+  /* Estilo geral da barra de navegação */
+.navbar {
+    
+    display: flex; /*Ativa o layout flexível*/
+    width: 100%;
+    flex-wrap: wrap; /* Permite que os itens "quebrem" para a próxima linha*/
+    align-items: baseline;
+    justify-content: center;
+    padding: 10px 20px; /* Adiciona espaçamento interno: 10px nas partes superior/inferior e 20px nas laterais */
+    background-color: #fff; /* Fundo branco */
+    border-bottom: 1px solid #ddd; /* Linha inferior */
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  /* Logotipo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  /* Menu de navegação */
+  .nav-menu {
+    display: flex;
+    gap: 20px; /* Espaçamento entre os links */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    display: none;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Barra de pesquisa */
+  .search-container {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5; /* Fundo cinza claro */
+    padding: 5px 10px;
+    border-radius: 25px; /* Cantos arredondados */
+    flex-grow: 1; /* Faz a barra de pesquisa expandir */
+    max-width: 400px; /* Limita a largura máxima */
+    margin: 0 20px; /* Espaçamento lateral */
+  }
+  
+  .search-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px; /* Espaço entre o ícone e o input */
+  }
+  
+  .search-input {
+    border: none;
+    background: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+  }
+  
+  /* Ícones de carrinho e perfil */
+  .icon-container {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Espaçamento entre os ícones */
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  /*botão de menu*/
+  .menu-toggle {
+    display: block; /* Mostra o botão de menu */
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  /*Fim da primeira sessão*/
+
+
+  .titulo-principal {
+    font-size: 40px;
+
+  }
+
+  .sub-titulo {
+    font-size: 15px;
+    color: #807d7d;
+  }
+/*Parte do botão shop now*/
+  .shop-now-wrapper {
+    text-align: center; /* Centraliza o botão horizontalmente */
+    margin-top: 20px; /* Adiciona espaço acima do botão */
+    
+  }
+
+  .shop-now button {
+    display: flex;
+    justify-content: center;
+    width: 90%; /* Largura total no mobile */
+    max-width: 100%; /* Limite de largura no desktop */
+    background-color: black; /* Fundo preto */
+    color: white; /* Texto branco */
+    padding: 15px 30px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 150px; /* Bordas arredondadas para criar o efeito oval */
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: Arial, sans-serif; /* Escolha uma fonte clean */
+    cursor: pointer; /* Adiciona o cursor de mão ao passar sobre o botão */
+    transition: transform 0.2s, background-color 0.2s; /* Animações suaves */
+  }
+
+  .shop-now button:hover {
+    background-color: #807d7d;
+    transform: scale(1.05);
+  }
+
+  .fontes-img {
+    display: flex;
+    position: relative; /* Permite o posicionamento absoluto dos elementos filhos */
+    width: 100%; /* Ajuste conforme necessário */
+    height: 500px; /* Ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+  }
+
+  .casal {
+    position: absolute;
+    top: 100px; /* Ajusta a posição vertical */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translateX(-50%); /* Garante que a imagem do casal fique centralizada */
+    width: 300px; /* Define o tamanho da imagem do casal */
+ 
+  }
+  
+  .estrela2m-sem {
+    display: flex;
+    position: absolute;
+    top: 180px; /* Ajusta a posição vertical */
+    width: 10%; /* Define o tamanho da estrela menor */
+    left: calc(50% + -120px);
+}
+
+  .estrela1-sem {
+    position: absolute;
+    top: 80px; /* Ajusta a altura para ficar alinhada à cabeça do homem */
+    left: calc(50% + 70px); /* Move a estrela maior para o lado direito da cabeça */
+    width: 20%; /* Define o tamanho da estrela maior */
+}
+
+/*PRDUTOS- NUMEROS*/
+    .produtos-numeros {
+       
+        display: flex;
+        width: 60%; /* Ajuste conforme necessário */
+        height: 100px; /* Ajuste conforme necessário */
+        margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+        
+    }
+
+    .numeros {
+        font-family: sans-serif;
+        font-size: 30px;
+
+    }
+
+    .legenda {
+        color: #807d7d;
+    }
+
+    .container {
+        font-family: Arial, sans-serif;
+        flex-direction: row;
+        display: flex;
+        position: absolute;
+        top: 350px; /* Ajusta a posição vertical altura */
+        left: calc(50% - 80px);
+        flex-direction: column;
+
+    }
