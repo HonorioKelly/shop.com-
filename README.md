@@ -75,7 +75,7 @@
                   <div class="fontes-img">
                       <img src="img/estrela2m-sem.png" alt=" " class="estrela2m-sem">
                       <img src="img/estrela1-sem.png" alt=" " class="estrela1-sem">
-                      <img src="img/casal-sem.png" alt="Search Icon" class="casal">
+                      <img src="casal-sem.png" alt="Search Icon" class="casal">
                   </div>
                   <div class="marcas">
                     <img class="versace" alt="" src="img/versace-sem.png">
