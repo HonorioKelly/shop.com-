@@ -39,7 +39,7 @@
                 
                 <!-- Ícones de carrinho e perfil -->
                 <div class="icon-container">
-                  <img src="img/carrinho.jpeg" alt="Cart Icon" class="carrinho">
+                  <img src="carrinho.jpeg" alt="Cart Icon" class="carrinho">
                   <img src="img/perfil.jpeg" alt="Profile Icon" class="perfil">
                 </div>
               </div>
