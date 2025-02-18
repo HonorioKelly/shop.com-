@@ -12,7 +12,7 @@
   
         <div class="banner-promo"> <!--banner promocional-->
               <div class="banner-texto"> <!--banner texto-->
-                    <span>Sign up and get 20% off to your first order. </span>
+                    <span>Sign<br> up and get 20% off to your first order. </span>
                     <span class="sign-up-now">Sign Up Now</span>
               </div>
               </div>
